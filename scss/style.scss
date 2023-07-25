@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Rubik+Puddles&family=Source+Code+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&family=Rubik+Puddles&family=Source+Code+Pro:wght@200&display=swap');
 
+@import 'catalogo';
+@import 'contacto';
+@import 'index';
+@import 'quienessomos';
+@import 'spreguntas';
+
 //footer y header iguaales para todos//
 * {
     font-family: sans-serif;
@@ -74,80 +80,4 @@ table tr td {
     padding: 10px;
 }
 
-.letra {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Rubik Puddles', cursive;
-    font-family: 'Source Code Pro', monospace;
-}
-
-.catalogo img {
-    width: 150px;
-    margin: 5px;
-    padding: 10px;
-}
-
-.catalogo h2 {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-family: 'Rubik Puddles', cursive;
-    font-family: 'Source Code Pro', monospace;
-    font-weight: 600px;
-}
-
-.main img {
-    width: 300px;
-}
-
-.main .banner {
-    width: 1500px;
-}
-
-.main h2 {
-    text-align: center;
-}
-
-.medio img {
-    width: 400px;
-}
-
-.medio p {
-    width: 400px;
-}
-
-.main .atrapasuenos {
-    width: 1500px;
-}
-
-
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 0px 1px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "foto-1 foto-2 foto-3"
-      "foto-4 foto-5 foto-6"
-      ". . .";
-  }
-  
-  .foto-1 { grid-area: foto-1; }
-  
-  .foto-2 { grid-area: foto-2; }
-  
-  .foto-3 { grid-area: foto-3; }
-  
-  .foto-4 { grid-area: foto-4; }
-  
-  .foto-5 { grid-area: foto-5; }
-  
-  .foto-6 { grid-area: foto-6; }
-  
-
-.medio {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
