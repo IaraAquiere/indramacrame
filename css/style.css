@@ -76,7 +76,6 @@
   padding: 0; }
 
 header {
-  box-shadow: 0 5px 5px #cac6c6;
   display: flex;
   align-items: center;
   flex-direction: column; }
